@@ -38,7 +38,7 @@
 <body class="lato">
   <header>
     <!-- navbar -->
-    <nav class="container mx-auto mt-3 lg:mt-8 p-5">
+    <nav class="container mx-auto mt-3 lg:mt-8 p-5 lg:p-0">
       <div class="navbar lg:bg-[#F85559] rounded-full mr-3 lg:px-6">
         <div class="navbar-start hidden lg:flex">
           <ul class="menu menu-horizontal px-1 text-white">
@@ -79,7 +79,7 @@
       </div>
     </nav>
  <!-- slider banner -->
-    <section class="text-center container mx-auto lg:mt-1 p-5">
+    <section class="text-center container mx-auto lg:mt-10 p-5 lg:p-0">
       <div class="container mx-auto">
         <div class="carousel w-full h-[500px]">
           <div id="slide1" class="carousel-item relative w-full">
@@ -89,7 +89,7 @@
                 <div class="hero-content text-center text-neutral-content">
                   <div class="lg:max-w-full">
                     <h1 class="mb-2 mt-2 text-6xl font-bold lato text-white">Exotic tastes at your <br>doorstep</h1>
-                    <p class="text-base text-[#FFF]  mt-8 mb-6">We supply highly quality organic products</p>
+                    <p class="text-sm text-[#FFF] font-medium mt-8 mb-6">We supply highly quality organic products</p>
                     <button class="px-7 py-4 rounded-lg font-extrabold bg-[#F85559] text-white">Shop Now</button>
                   </div>
                 </div>
@@ -160,7 +160,125 @@
     </section>
   </header>
   <main>
-
+    <!-- Date time section -->
+   <section >
+    <div class="flex flex-col lg:flex-row container mx-auto lg:justify-between items-center lg:mt-11 p-5 lg:p-0 space-y-4">
+      <div>
+        <h2 class="text-[40px] font-extrabold text-center lg:text-start">Deal of the day</h2>
+        <p class=" font-medium  text-sm text-center lg:text-start">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
+      </div>
+      <div>
+        <div class="grid grid-flow-col gap-4 auto-cols-max text-center ">
+          <div class="flex flex-col">
+            <span class="countdown lato font-extrabold text-4xl">
+              <span style="--value:29;"></span>&nbsp :
+            </span>
+            days
+          </div> 
+          <div class="flex flex-col">
+            <span class="countdown lato font-extrabold text-4xl">
+              <span style="--value:15;"></span>&nbsp :
+            </span>
+            hours
+          </div> 
+          <div class="flex flex-col">
+            <span class="countdown lato font-extrabold text-4xl">
+              <span style="--value:25;"></span>&nbsp :
+            </span>
+            min
+          </div> 
+          <div class="flex flex-col">
+            <span class="countdown lato font-extrabold text-4xl">
+              <span style="--value:8;"></span>
+            </span>
+            sec
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- Fruit section -->
+   <section class="mt-9">
+    <div class="container mx-auto lg:flex justify-center">
+    <div class="container mx-auto flex justify-center gap-5">
+      <div class="justify-center text-center border-2 border-[#1212121a] py-9 px-14 rounded-xl">
+        <img class=" w-[90px] mb-5 mx-auto " src="images/fruit6.png" alt="">
+        <h2 class="text-lg font-bold">12.90$ - 18.85$</h2>
+        <p class="text-[#12121299] font-medium text-base mb-5 mt-6">Apples</p>
+        <div class="rating  rating-half">
+          <input type="radio" name="rating-10" class="rating-hidden" />
+          <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+          <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+        </div>
+        <p class="text-base text-[#F85559] font-medium mt-3">Details</p>
+      </div>
+      <div class="justify-center text-center border-2 border-[#1212121a] py-9 px-14 rounded-xl">
+        <img class=" w-[90px] mb-5 mx-auto " src="images/fruit7.png" alt="">
+        <h2 class="text-lg font-bold">12.90$ - 18.85$</h2>
+        <p class="text-[#12121299] font-medium text-base mb-5 mt-6">Orange</p>
+        <div class="rating  rating-half">
+          <input type="radio" name="rating-10" class="rating-hidden" />
+          <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+          <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+        </div>
+        <p class="text-base text-[#F85559] font-medium mt-3">Details</p>
+      </div>
+      <div class="justify-center text-center border-2 border-[#1212121a] py-9 px-14 rounded-xl">
+        <img class=" w-[90px] mb-5 mx-auto " src="images/fruit8.png" alt="">
+        <h2 class="text-lg font-bold">12.90$ - 18.85$</h2>
+        <p class="text-[#12121299] font-medium text-base mb-5 mt-6">Red Dragon</p>
+        <div class="rating  rating-half">
+          <input type="radio" name="rating-10" class="rating-hidden" />
+          <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+          <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+        </div>
+        <p class="text-base text-[#F85559] font-medium mt-3">Details</p>
+      </div>
+      <div class="justify-center text-center border-2 border-[#1212121a] py-9 px-14 rounded-xl">
+        <img class=" w-[90px] mb-5 mx-auto " src="images/fruit9.png" alt="">
+        <h2 class="text-lg font-bold">12.90$ - 18.85$</h2>
+        <p class="text-[#12121299] font-medium text-base mb-5 mt-6">Banana</p>
+        <div class="rating  rating-half">
+          <input type="radio" name="rating-10" class="rating-hidden" />
+          <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+          <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
+          <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
+        </div>
+        <p class="text-base text-[#F85559] font-medium mt-3">Details</p>
+      </div>
+    </div>
+   </section>
   </main>
   <footer>
 

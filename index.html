@@ -1,28 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Google font lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:wght@400;800&family=Lato:wght@400;700;900&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <!-- DaisyUI from cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<!-- Font-awesome kit link -->
-<script src="https://kit.fontawesome.com/22585d9c0c.js" crossorigin="anonymous"></script>
-<!-- Customize Config -->
-<script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-          }
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font-awesome kit link -->
+    <script src="https://kit.fontawesome.com/22585d9c0c.js" crossorigin="anonymous"></script>
+    <!-- Customize Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
         }
-      }
-    }
-  </script>
+    </script>
+    <style>
+        .lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>  
 </head>
-<body>
-    
+
+<body class="lato">
+    <header>
+        <nav class="container mx-auto mt-12 mb-12 ">
+            <div class="navbar bg-[#F85559] rounded-full mr-3 lg:px-6">
+                <div class="navbar-start hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-white">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-center gap-3">
+                    <img class="h-8 lg:h-12 w-auto" src="images/logo.png" alt="">
+                    <h3 class="text-[30px] lg:text-[40px] text-white font-extrabold">Fruit Burst</h3>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-end">
+                        <div class="dropdown">
+                          <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                          </label>
+                          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] text-lg">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                          </ul>
+                        </div>
+                        <div>
+                        </div>
+                      </div>
+                      <div class="navbar-end hidden lg:flex">
+                        <input type="text" placeholder="Search here" class="rounded-full input input-bordered input-primary border-0 h-[30px] w-[150px]" />
+                    </div>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>

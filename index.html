@@ -22,7 +22,8 @@
       theme: {
         extend: {
           colors: {
-            clifford: '#da373d',
+            primary: '#F85559',
+            secondary:'#1212121a',
           }
         }
       }
@@ -200,25 +201,25 @@
           <div class="grid grid-flow-col gap-4 auto-cols-max text-center ">
             <div class="flex flex-col">
               <span class="countdown lato font-extrabold text-4xl">
-                <span style="--value:29;"></span>&nbsp :
+                <span style="--value:29;"></span>&nbsp &nbsp <i class="fa-solid fa-ellipsis-vertical"></i>
               </span>
               days
             </div>
             <div class="flex flex-col">
               <span class="countdown lato font-extrabold text-4xl">
-                <span style="--value:15;"></span>&nbsp :
+                <span style="--value:15;"></span>&nbsp &nbsp <i class="fa-solid fa-ellipsis-vertical"></i>
               </span>
               hours
             </div>
             <div class="flex flex-col">
               <span class="countdown lato font-extrabold text-4xl">
-                <span style="--value:25;"></span>&nbsp :
+                <span style="--value:25;"></span>&nbsp &nbsp <i class="fa-solid fa-ellipsis-vertical"></i>
               </span>
               min
             </div>
             <div class="flex flex-col">
               <span class="countdown lato font-extrabold text-4xl">
-                <span style="--value:8;"></span>
+                <span class="" style="--value:8;"></span>
               </span>
               sec
             </div>
@@ -227,6 +228,7 @@
       </div>
     </section>
     <!-- Fruit section -->
+    <!-- modal-1 -->
     <section class="mt-9 container  mx-auto">
       <div class="grid grid-col md:grid-cols-2 lg:grid-cols-4 gap-5 justify-center md:p-5 lg:p-0">
         <div class="justify-center text-center border border-[#1212121a] py-9 px-14 rounded-xl">
@@ -272,8 +274,7 @@
           </div>
           <a class=" text-base text-[#F85559] font-medium " href="#my_modal_8">Details</a>
         </div>
-
-
+<!-- modal-2 -->
         <div class="justify-center text-center border border-[#1212121a] py-9 px-14 rounded-xl">
           <img class=" w-[90px] mb-5 mx-auto " src="images/fruit7.png" alt="">
           <h2 class="text-lg font-bold">12.90$ - 18.85$</h2>
@@ -317,7 +318,7 @@
           </div>
           <a class=" text-base text-[#F85559] font-medium " href="#my_modal_9">Details</a>
         </div>
-
+<!-- modal-3 -->
         <div class="justify-center text-center border border-[#1212121a] py-9 px-14 rounded-xl">
           <img class=" w-[90px] mb-5 mx-auto " src="images/fruit8.png" alt="">
           <h2 class="text-lg font-bold">12.90$ - 18.85$</h2>
@@ -335,7 +336,6 @@
             <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
             <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
           </div>
-
           <div class="modal" id="my_modal_10">
             <div class="modal-box">
               <img class=" w-[90px] mb-5 mx-auto " src="images/fruit8.png" alt="">
@@ -362,7 +362,7 @@
           </div>
           <a class=" text-base text-[#F85559] font-medium " href="#my_modal_10">Details</a>
         </div>
-
+<!-- modal-4 -->
         <div class="justify-center text-center border border-[#1212121a] py-9 px-14 rounded-xl">
           <img class=" w-[90px] mb-5 mx-auto " src="images/fruit9.png" alt="">
           <h2 class="text-lg font-bold">12.90$ - 18.85$</h2>
@@ -380,7 +380,6 @@
             <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-1" />
             <input type="radio" name="rating-10" class="bg-[#FBC0A8] mask mask-star-2 mask-half-2" />
           </div>
-
           <div class="modal" id="my_modal_11">
             <div class="modal-box">
               <img class=" w-[90px] mb-5 mx-auto " src="images/fruit9.png" alt="">
@@ -480,74 +479,80 @@
     </section>
     <section class="container mx-auto grid grid-cols-1  lg:grid-cols-3 mt-10 gap-10 p-5">
       <div class="mx-auto">
-        <div class="flex flex-cols-1 gap-3 items-center mb-3">
-          <div class="bg-gray-300  p-4 rounded-full">
-            <i class="fa-solid fa-people-group fa-xl"></i>
+        <!-- Dedicated Team -->
+        <div class="flex flex-col lg:flex-row gap-3  lg:justify-start mb-3">
+          <div class="bg-secondary w-[44px] h-[44px] p-2 mx-auto rounded-full relative">
+            <div>
+              <i class="fa-solid fa-people-group fa-xl"></i>
+            </div>
           </div>
           <div class="space-y-2">
-            <h2 class="text-lg 	font-bold">Dedicated Team</h2>
+            <h2 class="text-lg text-center lg:text-start	font-bold">Dedicated Team</h2>
             <hr>
-            <p class="font-medium  text-sm leading-6 text-[#12121299]">Professional employees are there for you to pick
+            <p class="font-medium  text-center lg:text-start text-sm leading-6 text-[#12121299]">Professional employees are there for you to pick
               the most amazing and fresh fruits.</p>
           </div>
         </div>
-        <div class="flex gap-3 items-center mb-3">
-          <div class="bg-gray-300 p-4 rounded-full">
+        <!-- Fresh is Best -->
+        <div class="flex flex-col lg:flex-row gap-3  lg:justify-start mb-3">
+          <div class="bg-secondary w-[44px] h-[44px] p-2 mx-auto rounded-full relative">
             <i class="fa-solid fa-heart-circle-check fa-xl"></i>
           </div>
           <div class="space-y-2">
-            <h2 class="text-lg 	font-bold">Fresh is Best</h2>
+            <h2 class="text-lg text-center lg:text-start	font-bold">Fresh is Best</h2>
             <hr>
-            <p class="font-medium  text-sm leading-6 text-[#12121299]">Professional employees are there for you to pick
+            <p class="font-medium  text-center lg:text-start text-sm leading-6 text-[#12121299]">Professional employees are there for you to pick
               the most amazing and fresh fruits.</p>
           </div>
         </div>
-        <div class="flex gap-3 items-center mb-3">
-          <div class="bg-gray-300 p-4 rounded-full">
+        <div class="flex flex-col lg:flex-row gap-3  lg:justify-start mb-3">
+          <div class="bg-secondary w-[44px] h-[44px] p-2 mx-auto rounded-full relative">
             <i class="fa-solid fa-gift fa-xl"></i>
           </div>
           <div class="space-y-2">
-            <h2 class="text-lg 	font-bold">Gift Certificates</h2>
+            <h2 class="text-lg text-center lg:text-start	font-bold">Gift Certificates</h2>
             <hr>
-            <p class="font-medium  text-sm leading-6 text-[#12121299]">Professional employees are there for you to pick
+            <p class="font-medium  text-center lg:text-start text-sm leading-6 text-[#12121299]">Professional employees are there for you to pick
               the most amazing and fresh fruits.</p>
           </div>
         </div>
       </div>
+      <!-- middle img -->
       <div class="">
         <img class="h-[310px] w-[450px] mx-auto" src="images/whychoose1.png" alt="">
       </div>
+      <!-- Integrated Supplier -->
       <div>
-        <div class="flex  gap-3 items-center mb-3">
-          <div class="bg-gray-300 p-4 rounded-full">
+        <div class="flex flex-col lg:flex-row-reverse gap-3 justify-center lg:justify-end mb-3">
+          <div class="bg-secondary w-[44px] h-[44px] p-2 mx-auto rounded-full relative">
             <i class="fa-solid fa-truck-field-un fa-xl"></i>
           </div>
           <div class="space-y-2">
-            <h2 class="text-lg 	font-bold">Integrated Supplier</h2>
+            <h2 class="text-lg text-center lg:text-end	font-bold">Integrated Supplier</h2>
             <hr>
-            <p class="font-medium  text-sm leading-6 text-[#12121299]">Professional employees are there for you to pick
+            <p class="font-medium text-center lg:text-end text-sm leading-6 text-[#12121299]">Professional employees are there for you to pick
               the most amazing and fresh fruits.</p>
           </div>
         </div>
-        <div class="flex gap-3 items-center mb-3">
-          <div class="bg-gray-300 p-4 rounded-full">
+        <div class="flex flex-col lg:flex-row-reverse gap-3 justify-center lg:justify-end mb-3">
+          <div class="bg-secondary w-[44px] h-[44px] p-2 mx-auto rounded-full relative">
             <i class="fa-solid fa-ice-cream fa-xl"></i>
           </div>
           <div class="space-y-2">
-            <h2 class="text-lg 	font-bold">Sustainable Practice</h2>
+            <h2 class="text-lg text-center lg:text-end	font-bold"> Sustainable Practice</h2>
             <hr>
-            <p class="font-medium  text-sm leading-6 text-[#12121299]">Professional employees are there for you to pick
+            <p class="font-medium  text-center lg:text-start text-sm leading-6 text-[#12121299]">Professional employees are there for you to pick
               the most amazing and fresh fruits.</p>
           </div>
         </div>
-        <div class="flex gap-3 items-center mb-3">
-          <div class="bg-gray-300 p-4 rounded-full">
+        <div class="flex flex-col lg:flex-row-reverse gap-3 justify-center lg:justify-end mb-3">
+          <div class="bg-secondary w-[44px] h-[44px] p-2 mx-auto rounded-full relative">
             <i class="fa-solid fa-thumbs-up fa-xl"></i>
           </div>
           <div class="space-y-2">
-            <h2 class="text-lg 	font-bold">The Benefits Only</h2>
+            <h2 class="text-lg text-center lg:text-end	font-bold">The Benefits Only</h2>
             <hr>
-            <p class="font-medium  text-sm leading-6 text-[#12121299]">Professional employees are there for you to pick
+            <p class="font-medium  text-center lg:text-start text-sm leading-6 text-[#12121299]">Professional employees are there for you to pick
               the most amazing and fresh fruits.</p>
           </div>
         </div>

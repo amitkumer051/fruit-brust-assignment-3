@@ -40,8 +40,8 @@
 <body class="lato">
   <header>
     <!-- navbar -->
-    <nav class="container mx-auto mt-3 lg:mt-8 p-5 lg:p-0">
-      <div class="navbar lg:bg-[#F85559] rounded-full mr-3 lg:px-6">
+    <nav class="container mx-auto mt-3 lg:mt-8 p-5 lg:p-0  ">
+      <div class="navbar lg:bg-[#F85559] rounded-full mr-3 lg:px-6 md:mx-0 md:justify-between">
         <div class="navbar-start hidden lg:flex">
           <ul class="menu menu-horizontal px-1 text-white">
             <li><a>Home</a></li>
@@ -50,20 +50,17 @@
             <li><a>All Fruits</a></li>
           </ul>
         </div>
-        <div class="navbar-center gap-3">
+        <div class="navbar-center gap-3 ">
           <img class="h-8 lg:h-12 w-auto" src="images/logo.png" alt="">
           <h3 class="text-[30px] lg:text-[40px] lg:text-white text-black font-extrabold">Fruit Burst</h3>
         </div>
-        <div class="navbar-end">
-          <div class="navbar-end">
-            <div class="dropdown">
-              <label tabindex="0" class="btn btn-ghost lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                  stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-                </svg>
+        <div class="navbar-end ">
+          <div class="navbar-end ">
+            <div class="dropdown ">
+              <label tabindex="0" class="btn btn-ghost md:hidden lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
               </label>
-              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] text-lg">
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] text-lg text-white">
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
                 <li><a>Shop</a></li>
@@ -75,7 +72,7 @@
           </div>
           <div class="navbar-end  hidden md:flex lg:flex">
             <input type="text" placeholder="Search here "
-              class="rounded-full relative input input-bordered input-primary  md:border lg:border-0 h-[30px] w-[150px]" />
+              class="rounded-full relative input input-bordered input-primary   md:border lg:border-0 h-[30px] w-[150px]" />
             <i class="fa-solid fa-magnifying-glass absolute pr-2 pt-1.5"></i>
           </div>
         </div>
@@ -99,8 +96,8 @@
               </div>
             </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide4" class="btn btn-circle">❮</a>
-              <a href="#slide2" class="btn btn-circle">❯</a>
+              <a href="#slide4" class="btn btn-circle bg-black border-0 text-white">❮</a>
+              <a href="#slide2" class="btn btn-circle bg-black border-0 text-white">❯</a>
             </div>
           </div>
           <div id="slide2" class="carousel-item relative w-full">
@@ -117,8 +114,8 @@
               </div>
             </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide1" class="btn btn-circle">❮</a>
-              <a href="#slide3" class="btn btn-circle">❯</a>
+              <a href="#slide1" class="btn btn-circle bg-black border-0 text-white">❮</a>
+              <a href="#slide3" class="btn btn-circle bg-black border-0 text-white">❯</a>
             </div>
           </div>
           <div id="slide3" class="carousel-item relative w-full">
@@ -134,8 +131,8 @@
                 </div>
               </div>
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2" class="btn btn-circle">❮</a>
-                <a href="#slide4" class="btn btn-circle">❯</a>
+                <a href="#slide2" class="btn btn-circle bg-black border-0 text-white">❮</a>
+                <a href="#slide4" class="btn btn-circle bg-black border-0 text-white">❯</a>
               </div>
             </div>
           </div>
@@ -153,8 +150,8 @@
               </div>
             </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide3" class="btn btn-circle">❮</a>
-              <a href="#slide1" class="btn btn-circle">❯</a>
+              <a href="#slide3" class="btn btn-circle bg-black border-0 text-white">❮</a>
+              <a href="#slide1" class="btn btn-circle bg-black border-0 text-white">❯</a>
             </div>
           </div>
         </div>
@@ -273,7 +270,7 @@
                 <p href="#" class="btn  text-white bg-[#F85559]">Buy Now</p>
               </div>
             </div>
-          </div>
+          </div><br>
           <a class=" text-base text-[#F85559] font-medium " href="#my_modal_8">Details</a>
         </div>
 <!-- modal-2 -->
@@ -318,7 +315,7 @@
                 <p href="#" class="btn  text-white bg-[#F85559]">Buy Now</p>
               </div>
             </div>
-          </div>
+          </div> <br>
           <a class=" text-base text-[#F85559] font-medium " href="#my_modal_9">Details</a>
         </div>
 <!-- modal-3 -->
@@ -363,7 +360,7 @@
                 <p href="#" class="btn  text-white bg-[#F85559]">Buy Now</p>
               </div>
             </div>
-          </div>
+          </div> <br>
           <a class=" text-base text-[#F85559] font-medium " href="#my_modal_10">Details</a>
         </div>
 <!-- modal-4 -->
@@ -408,7 +405,7 @@
                 <p href="#" class="btn  text-white bg-[#F85559]">Buy Now</p>
               </div>
             </div>
-          </div>
+          </div> <br>
           <a class=" text-base text-[#F85559] font-medium " href="#my_modal_11">Details</a>
         </div>
       </div>
@@ -417,10 +414,10 @@
       </div>
     </section>
     <!-- team section -->
-    <section class="mt-20 p-5 lg:p-0">
+    <section class="mt-20 p-5 lg:p-0 ">
       <div class="container mx-auto">
-        <div class="hero min-h-screen" style="background-image: url('images/banner1.png');">
-          <div class="hero-overlay bg-opacity-70"></div>
+        <div class="hero min-h-screen rounded-lg" style="background-image: url('images/banner1.png');">
+          <div class="hero-overlay bg-opacity-70 rounded-lg"></div>
           <div class="hero-content text-center text-neutral-content">
             <div class="">
               <h1 class="mb-5 text-5xl font-bold text-[#FFF]">Meet the team section</h1>
@@ -478,7 +475,7 @@
     <section class="container mx-auto mt-12 p-5">
       <div class=" text-center">
         <h2 class="text-[40px] mb-3 font-extrabold">Why Choose Us</h2>
-        <p class=" font-medium  text-sm leading-6 text-[#12121299] ">Contrary to popular belief, is not simply random
+        <p class=" font-medium  text-sm leading-6 text-[#12121299] p-5">Contrary to popular belief, is not simply random
           text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
       </div>
     </section>
@@ -524,7 +521,7 @@
         </div>
       </div>
       <!-- middle img -->
-      <div class="absolute p-5 lg:relative">
+      <div class="absolute container  md:mx-auto p-5 lg:relative">
         <img class="h-[350px] w-[450px] mx-auto" src="images/whychoose1.png" alt="">
       </div>
       <!-- Integrated Supplier -->
